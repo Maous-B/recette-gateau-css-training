@@ -8,6 +8,12 @@
     box-sizing: border-box;
 }
 
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .cake-thingy{
     border-radius: 10%;
     display: block;
@@ -24,6 +30,7 @@
 
 .ingredients-container{
     text-align: center;
+    list-style-position: inside;
 }
 
 .test{
